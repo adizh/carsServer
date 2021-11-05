@@ -13,9 +13,8 @@ const Catalog = () => {
                         <p>Модель машины: {car.car_model}</p>
                         <p>Производитель: {car.car_make}</p>
                         <p>Год выпуска: {car.car_year}</p>
-
                         <p>Цена: {car.price}</p>
-                        <Link to={`/catalog/${car.id}`}>Подробнее</Link>
+                        <Link  className='link'to={`/catalog/${car.id}`}>Подробнее</Link>
                     </div>
                 ))}
             </div>

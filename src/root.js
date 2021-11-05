@@ -8,7 +8,7 @@ import About from './components/about'
 import Contacts from "./components/contacts";
 import {Provider} from 'react-redux';
 import store from './redux';
-
+import 'bootstrap/dist/css/bootstrap.min.css'
 const Root = () => {
     return (
         <Provider store={store}>
